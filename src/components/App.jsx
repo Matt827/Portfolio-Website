@@ -6,12 +6,18 @@ import Portfolio from './Portfolio';
 
 const App = () => {
   return (
-    <div className='bg-cover bg-neutral-200'>
-      <Navbar />
-      <Home />
-      <About />
-      <Portfolio />
-    </div>
+    <>
+      <div className="">
+        <Navbar />
+      </div>
+      <div className='bg-neutral-200'>
+        <Home />
+      </div>
+      <div className="">
+        <About />
+        <Portfolio />
+      </div>
+    </>
   )
 }
 

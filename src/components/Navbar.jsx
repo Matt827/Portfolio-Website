@@ -3,11 +3,11 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-        <h1 className="">
+    <div className="">
+        <h1 className="inline-block">
             MS
         </h1>
-        <div className="nav-links">
+        <div className="inline-block">
             <button className="">
                 Home
             </button>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 Contact
             </button>
         </div>
-        <div className="social-links">
+        <div className="inline-block">
             <button className="bg-sky-500 hover:bg-sky-700">
                 LinkedIn
             </button>
